@@ -12,22 +12,29 @@
 
 <body>
     <a-scene>
+        <a-assets>
+ <img id="CR7" src="images/CR7.jpg" preload="auto">
+  <img id="ronaldo" src="images/ronaldo.jpg" preload="auto">
+
+</a-assets>
+
+        
         <a-entity environment="preset: forest; dressingAmount: 9999; skyColor:cyan"></a-entity><ground:color></ground:color><green></green><dressing:color></dressing:color><lime></lime>
     <!--Museum Start-->
-        <a-cylinder id="floor" position="0 0 0" radius="7.5"; height="0.1" color="cyan"></a-cylinder>
-        <a-box id="wall1" position="0 1.473 4.907" scale="10 3 0.2" color="cyan"></a-box>
-        <a-box id="wall2" position="0 1.473 -4.907" scale="10 3 0.2" color="cyan"></a-box>
-        <a-box id="wall3" position="5.049 1.454 0.008" rotation="0 -90 0" scale="10 3 0.2" color="cyan"></a-box>
-        <a-box id="wall4" position="-5.049 1.454 -0.008" rotation="0 -90 0" scale="10 3 0.2" color="cyan"></a-box>
+        <a-cylinder id="floor" position="0 0 0" radius="7.5"; height="0.1" color="green"></a-cylinder>
+        <a-box id="wall1" position="0 1.473 4.907" scale="10 3 0.2" color="green"></a-box>
+        <a-box id="wall2" position="0 1.473 -4.907" scale="10 3 0.2" color="green"></a-box>
+        <a-box id="wall3" position="5.049 1.454 0.008" rotation="0 -90 0" scale="10 3 0.2" color="green"></a-box>
+        <a-box id="wall4" position="-5.049 1.454 -0.008" rotation="0 -90 0" scale="10 3 0.2" color="green"></a-box>
     <!--Roof-->
-        <a-cylinder id="triangle_front" segments-radial="3" position="0 3.874 4.907" rotation="-90 0 0" scale="5.774 0.2 1.8" color="cyan"></a-cylinder>
-        <a-cylinder id="triangle_back" segments-radial="3" position="0 3.874 -4.907" rotation="-90 0 0" scale="5.774 0.2 1.8" color="cyan"></a-cylinder>
-        <a-box id="roof_right" position="2.580 4.328 0" rotation="28.433 90 0" scale="10.931 0.20 6.110" color="gray"></a-box>
-         <a-box id="roof_left" position="-2.599 4.321 -0.017" rotation="28.433 -90 0" scale="10.931 0.20 6.130" color="gray"></a-box>
-        <a-assets>
- <img id=" " src="images/nameofyourimage" preload="auto">
-</a-assets>
-<a-plane id="art1" src="#ronaldo" scale="2 2 0.05" rotation="0 0 0" position="-0.162 1.934 -4.792"></a-plane>
+        <a-cylinder id="triangle_front" segments-radial="3" position="0 3.874 4.907" rotation="-90 0 0" scale="5.774 0.2 1.8" color="green"></a-cylinder>
+        <a-cylinder id="triangle_back" segments-radial="3" position="0 3.874 -4.907" rotation="-90 0 0" scale="5.774 0.2 1.8" color="green"></a-cylinder>
+        <a-box id="roof_right" position="2.580 4.328 0" rotation="28.433 90 0" scale="10.931 0.20 6.110" color="green"></a-box>
+        <a-box id="roof_left" position="-2.599 4.321 -0.017" rotation="28.433 -90 0" scale="10.931 0.20 6.130" color="green"></a-box>
+        
+<a-plane id="art1" src="#CR7" scale="2 2 0.05" rotation="0 0 0" position="-2.414 1.934 -4.792"></a-plane>
+<a-plane id="art2" src="#ronaldo" scale="2 2 0.05" rotation="0 0 0" position="2.491 1.934 -4.750"></a-plane>
+
 
 </a-scene>
 </body>

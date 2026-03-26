@@ -6,7 +6,7 @@
 # User-specific files
 *.rsuser
 *.suo
-*.user
+*.user                                 <a-plane id="art3" src="#MichaelJordan" scale="2 2 0.05" rotation="0 0 0" position="0.005 1.934 -4.792"></a-plane>
 *.userosscache
 *.sln.docstates
 
